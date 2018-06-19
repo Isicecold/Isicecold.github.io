@@ -1,0 +1,21 @@
+p{
+    white-space: pre;
+    padding-left: 5%
+}
+h1{
+    padding-left: 5%;
+}
+h2{
+    padding-left: 5%;
+}
+h3{
+    padding-left: 5%
+}
+body{
+    line-height: 1.5;
+    text-align: left;
+}
+span{
+    font-weight: bold;
+    color: black;
+}
