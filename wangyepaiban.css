@@ -1,0 +1,123 @@
+body{
+	margin: 0 auto;
+}
+header{
+    height: 90px;
+    width: inherit;
+    background-color: brown;
+}
+.ab{
+    margin: 0 auto;
+    width: 1500px;
+}
+h1{
+	color: #fff;
+	font-size: 45px;
+	line-height: 80px; 
+	margin:0; 
+	display: inline-block;
+}
+.ab a{
+	float: right;
+	padding-left: 20px;
+	line-height: 80px;
+	font-size: 20px;
+	color: rgb(209, 209, 209);
+	text-decoration: none;
+}
+.banner{
+    width:100%;
+	height:400px;
+	background: rgb(219, 97, 27);
+	font-size: 65px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 390px;
+	position: absolute;
+    letter-spacing: 8px;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+}
+.tag{
+	width:150px;
+	display: flex;
+	margin: 340px 0 0 70% ;
+	float: left;
+}
+.tag div{
+	width: 20px;
+	height: 20px;
+	background: rgb(21, 235, 235);
+	position: relative;
+	margin-right:10px; 
+}
+.tag div:nth-child(1){
+	background: rgb(255, 0, 0)
+}
+nav{
+	width: 100%;
+	height:100px;
+	border-bottom: 2px solid rgba(214, 210, 210, 0.705); 
+}
+ul{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+li{
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	border-radius: 5px 5px 0 0 ;
+	background-color: rgb(126, 10, 10);
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	border-top: 1px solid #ddd ;
+	border-left: 1px solid #ddd ;
+	border-right: 1px solid #ddd ;
+	margin: 50px 0 0 0;
+}
+li:nth-of-type(1){
+	background-color: #fff;
+}
+section:last-of-type{
+	width: 960px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+div[class^=qian]{
+	border: 1px solid #ddd;
+	height: 200px;
+	margin:0 18px 18px 0; 
+	text-align: center;
+	line-height: 200px;
+}
+.qian-1{
+	width: 30%;
+	background-color: rgb(236, 162, 22)
+}
+.qian-2{
+	width: 22%;
+	background-color: rgb(236, 162,22)
+}
+.qian-3{
+	width: 30.1%;
+	background-color: rgb(236, 162, 22)
+}
+footer{
+	margin-top: 25px; 
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	line-height: 110px;
+	text-decoration: none;
+	background: rgb(204, 122, 44);
+	color: #fff;
+	font-size: 30px;	
+}
