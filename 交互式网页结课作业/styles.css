@@ -1,0 +1,141 @@
+.container-fluid{
+    max-width: 1500px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.jumbotron{
+   height: 800px;
+   background: url(images/qietu/背景1.png) no-repeat ;
+   background-size:cover;
+   margin-bottom: 0;
+   border-radius: 0;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin: 16% 0 0 20%;
+}
+.jumbotron p{
+    margin: 0.1% 0 0 17%;
+    font-size: 20px;
+    width: 43%;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.63);
+}
+.pp2{
+    background: url(images/qietu/Background.png) no-repeat;
+    padding-top:100px;
+}
+.pp2 h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top:0;
+}
+.cc2{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.pp2-li{
+    width: 30%;
+    margin: 2% 10% 2% 10%;
+}
+.pp2-li img{
+    width: 100px;
+}
+.pp2-li p{
+    font-size:25px;
+    margin-left:10px;
+    display:inline-block;     
+}
+.aa2 h3{
+    display:inline-block;
+    font-size: 40px;
+    margin: 0 0 1% 25%; 
+}
+.aa2 img{
+    float: left;
+}
+.aa2 p{
+    font-size: 25px;
+    padding-left:895px;
+    letter-spacing:4px;
+    line-height:40px; 
+}
+.qq2 h3{
+    display: inline-block;
+    font-size: 40px;
+    margin:0 0 1% 14%;
+}
+.qq2 img{
+    float: right;
+}
+.qq2 p{
+    font-size: 25px;
+    padding-left: 148px;
+    letter-spacing:4px;
+    line-height:50px;
+}
+.kk2 h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top:40px;
+}
+.kk2 img{
+    margin-top:70px;
+    margin-left: 195px;
+}
+.oo2 h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top:40px;
+}
+.qian{
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.oo2 p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing:2px;
+    line-height:50px;
+}
+.oo2 li{
+    display: inline-block;
+}
+.oo2 ul{
+    margin-left:43.8% ;
+}
+.zz2 h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-top:40px;
+}
+.zz2 p{
+    font-size:30px;
+    margin-top:20px; 
+    text-align: center;
+}
+.zz2 ul{
+    margin-left: 38%;
+}
+.zz2 li{
+    font-size: 20px;
+}
+.dd2 h3{
+    font-size: 40px;
+    text-align: center;
+    padding-top:20px; 
+}
+footer{
+    background: url(images/qietu/底栏.png) no-repeat; 
+    background-size:cover;
+    height: 100px;
+    margin-top:20px; 
+}
